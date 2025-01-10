@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import emailjs from "emailjs-com";
+
 import axios from "axios";
 
 const Contact = () => {
@@ -14,40 +14,11 @@ const Contact = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
-    const data = {
-      service_id: "service_blua7db", // استبدل بـ Service ID الخاص بك
-      template_id: "template_zvo7ako", // استبدل بـ Template ID الخاص بك
-      user_id: "727Ha6mati5KOOxwC", // استبدل بـ User ID الخاص بك
-      template_params: {
-        name: formData.name,
-        email: formData.email,
-        message: formData.message,
-      },
-    };
-    console.log(data)
-
-    axios
-      .post("https://api.emailjs.com/api/v1.0/email/send", data, {
-        headers: {
-          "Content-Type": "application/json",
-        },
-      })
-      .then(() => {
-        alert("Message sent successfully!");
-        setFormData({ name: "", email: "", message: "" });
-      })
-      .catch((error) => {
-        alert("Failed to send message: " + (error.response?.data?.message || error.message));
-      });
-  };
 
   return (
     <div style={{ maxWidth: "500px", margin: "50px auto", color: "white" }}>
       <h1>Contact Me</h1>
-      <form onSubmit={handleSubmit}>
+      <form >
         <div style={{ marginBottom: "15px" }}>
           <label>Name:</label>
           <input
