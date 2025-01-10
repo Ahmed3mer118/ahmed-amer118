@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --main-color: #1f242d;
+  --second-color: #0ef;
+}
+
