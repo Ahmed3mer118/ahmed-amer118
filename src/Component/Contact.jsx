@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 
-import axios from "axios";
-
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
