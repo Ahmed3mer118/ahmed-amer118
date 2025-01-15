@@ -5,7 +5,6 @@ import "../CSS/home.css";
 
 const projectsData = [
   {
-
     link: "https://code-eagles.vercel.app/",
     image: "/image/codeeagles.png",
     title: "Code Eagles",
@@ -13,7 +12,13 @@ const projectsData = [
       "A platform for courses using Front-End and Back-End technologies. Students can register, join courses , watch materials, submit tasks, track attendance",
   },
   {
- 
+    link: "https://ieee-front-pi.vercel.app",
+    image: "/image/IEEE-Front-development.png",
+    title: "IEEE OCS SB",
+    description:
+      "Collaborated with a team to develop the official website for IEEE Obour Student Branch. Designed and implemented a responsive user interface using modern front-end technologies",
+  },
+  {
     link: "https://vemoda-dist.vercel.app/",
     image: "/image/vemoda.png",
     title: "Vemoda Store",
@@ -21,7 +26,6 @@ const projectsData = [
       "An online store built with React. It uses Context API for state management and integrates an API to fetch and display products dynamically.",
   },
   {
-   
     link: "https://ahmed3mer118.github.io/Crud",
     image: "/image/crud.jpg",
     title: "Product Management",
@@ -37,29 +41,20 @@ const projectsData = [
       "A quiz application built with HTML, CSS, Bootstrap, JavaScript, and React. It features dynamic question rendering and score tracking.",
   },
   {
-
     link: "https://wheaterapp118.netlify.app/",
     image: "/image/weatherapp.png",
     title: "Weather App",
     description:
       "An app to check weather conditions by city using an API. Users can search cities to get real-time temperature and weather data.",
   },
-  {
- 
-    link: "https://ahmed3mer118.github.io/Simple-Template",
-    image: "/image/template.jpg",
-    title: "Restaurant Template",
-    description:
-      "A responsive restaurant template with a clean design. The site adjusts perfectly to different screen sizes and provides a user-friendly layout.",
-  },
-  {
- 
-    link: "https://ahmed3mer118.github.io/QR-code",
-    image: "/image/qrcode.jpg",
-    title: "QR Code Generator",
-    description:
-      "A simple project for creating QR codes. Users can generate codes for any input and scan them using QR code readers.",
-  },
+  // {
+  //   link: "https://ahmed3mer118.github.io/Simple-Template",
+  //   image: "/image/template.jpg",
+  //   title: "Restaurant Template",
+  //   description:
+  //     "A responsive restaurant template with a clean design. The site adjusts perfectly to different screen sizes and provides a user-friendly layout.",
+  // },
+  
 ];
 
 function ProjectBox({ project }) {
@@ -102,10 +97,9 @@ function Projects() {
       <section className="projects">
         <h1 className="title">My Projects</h1>
         <div className="project-box container">
-          {projectsData.map((project,index) => (
+          {projectsData.map((project, index) => (
             <ProjectBox key={index} project={project} />
           ))}
-      
         </div>
       </section>
       {showFooter && <Footer />}
