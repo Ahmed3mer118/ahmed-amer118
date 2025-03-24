@@ -30,6 +30,7 @@ function About() {
                 <h3>Bootstrap</h3>
                 <h3>Tailwind</h3>
                 <h3>React</h3>
+                <h3>Next</h3>
               </div>
               <div className="skills-details">
                 <h3>Git & GitHub</h3>
@@ -38,6 +39,7 @@ function About() {
                 <h3>Headless CMS</h3>
                 <h3>State Management</h3>
                 <h3>REST API</h3>
+                <h3>SQL</h3>
               </div>
             </div>
           </div>
