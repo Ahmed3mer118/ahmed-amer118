@@ -4,6 +4,7 @@ import Navbar from "./Component/Navbar";
 import Home from "./Component/Home";
 import Projects from "./Component/Projects";
 import About from "./Component/About";
+import Skills from "./Component/Skills";
 import Quiz from "./Projects/Quiz";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Contact from "./Component/Contact";
@@ -22,6 +23,7 @@ const router = createBrowserRouter([
       { path: "/", element: <Home /> },
       { path: "/projects?/:id", element: <Projects /> },
       { path: "/about", element: <About /> },
+      { path: "/skills", element: <Skills /> },
       { path: "/quiz", element: <Quiz /> },
       { path: "/contact", element: <Contact /> },
     ],
