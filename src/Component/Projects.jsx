@@ -4,7 +4,7 @@ import Footer from "./Footer";
 
 const projectsData = [
   {
-    link: "https://code-eagles.vercel.app/",
+    link: "https://www.code-eagles.com",
     image: "/image/codeeagles.png",
     title: "Code Eagles",
     description: "A platform for courses using Front-End and Back-End technologies. Students can register, join courses, watch materials, submit tasks, track attendance",
