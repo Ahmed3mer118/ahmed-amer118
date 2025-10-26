@@ -22,7 +22,7 @@ function Home() {
               Ahmed Amer
             </h1>
             <h3 className="text-2xl md:text-3xl font-medium text-gray-300">
-              Frontend <span className="text-blue-400">React</span> Developer
+               <span className="text-blue-400">MEARN Stack </span> Developer
             </h3>
             <p className="text-gray-400 text-lg max-w-lg">
               I build exceptional digital experiences with modern web technologies.
