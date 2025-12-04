@@ -17,6 +17,13 @@ const projectsData = [
     description: "Collaborated with a team to develop the official website for IEEE Obour Student Branch. Designed and implemented a responsive user interface using modern front-end technologies",
     technologies: ["React", "Tailwind CSS", "Framer Motion"]
   },
+ {
+  link: "https://ggoli-store.vercel.app/",
+  image: "/image/ggoli-store.png",
+  title: "GGoli Store",
+  description: "GGoli Store is a full-stack e-commerce platform built with Angular for the frontend and Node.js/Express for the backend. It features dynamic product management, user authentication, and real-time cart functionality. The app integrates REST APIs for seamless communication between client and server, providing a smooth shopping experience.",
+  technologies: ["Angular 19", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"]
+ },
   {
     link: "https://vemoda.vercel.app",
     image: "/image/vemoda.png",
