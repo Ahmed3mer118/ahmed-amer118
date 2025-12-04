@@ -8,7 +8,7 @@ function Skills() {
 
     const technologies = [
         "HTML", "CSS", "JavaScript", "TypeScript", "OOP",
-        "Bootstrap", "Tailwind CSS", "React", "Next.js", "Node.js"
+        "Bootstrap", "Tailwind CSS", "React", "Angular", "Node.js","Express.js",
     ];
 
     const tools = [
@@ -29,12 +29,12 @@ function Skills() {
         //     period: "2022 - Present",
         //     description: "Advanced courses in modern JavaScript frameworks and web technologies"
         // },
-        // {
-        //     degree: "MEAN Stack Development ",
-        //     institution: "NTI",
-        //     period: "5-2025- 7-2025",
-        //     description: "Learn advanced MEAN stack development (node.js, express.js, mongoose, mongodb) and build full-stack applications"
-        // }
+         {
+            degree: "MEAN Stack Development ",
+            institution: "NTI",
+            period: "5-2025- 7-2025",
+            description: "Learn advanced MEAN stack development (node.js, express.js, mongoose, mongodb) and build full-stack applications"
+        }
     ];
     const certificates = [
         {
