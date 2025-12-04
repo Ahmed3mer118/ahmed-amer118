@@ -6,6 +6,7 @@ import Projects from "./Projects";
 import About from "./About";
 import Footer from "./Footer";
 import Skills from "./Skills";
+import Contact from "./Contact";
 import { FaInstagram,  FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
 
 
@@ -105,6 +106,7 @@ function Home() {
       <About />
       <Projects />
       <Skills />
+      <Contact />
       <Footer />
     </>
   );
