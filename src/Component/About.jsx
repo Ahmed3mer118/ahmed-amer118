@@ -23,13 +23,7 @@ function About() {
             <div className="lg:w-2/3">
               <h1 className="text-3xl font-bold mb-6 text-white">About Me</h1>
               <p className="text-gray-200 mb-8 leading-relaxed">
-                I'm Ahmed Amer, a Front-End Developer with 3 years of hands-on experience in
-                building modern, responsive web applications. Skilled in technologies like JavaScript,
-                React, and Next.js, I've developed and contributed to several real-world projects ranging
-                from e-learning platforms to e-commerce solutions. In parallel with development, I work
-                as a Front-End Instructor, delivering workshops and mentoring students in both
-                fundamental and advanced topics. I am passionate about continuous learning and
-                sharing knowledge to inspire the next generation of developers.
+    I'm Ahmed Amer, a MERN Stack Developer with expertise in React and Angular. I build full-featured web applications using MongoDB, Express, React, Angular, and Node.js, creating responsive and scalable solutions. Alongside development, I mentor and teach aspiring developers, delivering workshops and guidance on modern web technologies. I’m passionate about continuous learning and turning ideas into functional digital experiences
               </p>
             </div>
           </div>
